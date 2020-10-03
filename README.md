@@ -1,7 +1,7 @@
 ![made-with-VisualStudio](https://img.shields.io/badge/Made%20With-Visual%20Studio-ba88f3)  ![Using-CPlusPlus](https://img.shields.io/badge/Using-C%2B%2B-ff69b4)
 
 # Stacks-and-Queues
-...
+rewriting my previous palindrome project, but using stacks and queues. Functions exactly the same.
 
 <img src="./assets/screenshot.png"
      alt="Img"
