@@ -13,9 +13,11 @@ bool is_palindrome(const std::string& s) {
     std::queue<char> queue;
 
     for (char c : s) {
-        c = std::toupper(c);
-        queue.push(c);
-        stack.push(c);
+        if (std::isalpha(c)) {
+            c = std::toupper(c);
+            queue.push(c);
+            stack.push(c);
+        }
     }
 
     char char1{};
